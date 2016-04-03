@@ -1,0 +1,6 @@
+<ellipticSensorSetup>
+
+  <ellipticPositionSensor type="apr" />
+  <transferRate channels="1" rate="96000" periodCount="1" periodSize="48"/>
+
+</ellipticSensorSetup>
