@@ -162,10 +162,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/usf_settings.sh:/system/etc/usf_settings.sh \
     vendor/xiaomi/gemini/proprietary/lib64/hw/consumerir.msm8996.so:/system/lib64/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:/system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.ranchu.so:/system/lib64/hw/fingerprint.ranchu.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/nfc_nci.pn54x.default.so:/system/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/sensors.msm8996.so:/system/lib64/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib64/hw/sensors.ranchu.so:/system/lib64/hw/sensors.ranchu.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVpp.so:/system/lib64/libOmxVpp.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti-iop.so:/system/lib64/libqti-iop.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti_performance.so:/system/lib64/libqti_performance.so \
@@ -175,9 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:/system/lib/hw/camera.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:/system/lib/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:/system/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.ranchu.so:/system/lib/hw/fingerprint.ranchu.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/sensors.msm8996.so:/system/lib/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/sensors.ranchu.so:/system/lib/hw/sensors.ranchu.so \
     vendor/xiaomi/gemini/proprietary/lib/libcom_fingerprints_service.so:/system/lib/libcom_fingerprints_service.so \
     vendor/xiaomi/gemini/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
