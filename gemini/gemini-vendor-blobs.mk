@@ -74,6 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:/system/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Headset_cal.acdb:/system/etc/acdbdata/Forte/Forte_Headset_cal.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:/system/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
+    vendor/xiaomi/gemini/proprietary/etc/android_model_facea.dat:/system/etc/android_model_facea.dat \
+    vendor/xiaomi/gemini/proprietary/etc/android_model_faceg.dat:/system/etc/android_model_faceg.dat \
     vendor/xiaomi/gemini/proprietary/etc/camera/imx214_chromatix.xml:/system/etc/camera/imx214_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/imx230_chromatix.xml:/system/etc/camera/imx230_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/imx258_chromatix.xml:/system/etc/camera/imx258_chromatix.xml \
@@ -82,13 +84,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/camera/imx298_semco_chromatix.xml:/system/etc/camera/imx298_semco_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/msm8952_camera.xml:/system/etc/camera/msm8952_camera.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/msm8996_camera.xml:/system/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/ov13850_chromatix.xml:/system/etc/camera/ov13850_chromatix.xml \
+    vendor/xiaomi/gemini/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:/system/etc/camera/ov13850_q13v06k_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_chromatix.xml:/system/etc/camera/ov4688_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_primax_chromatix.xml:/system/etc/camera/ov4688_primax_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov5670_chromatix.xml:/system/etc/camera/ov5670_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov8858_chromatix.xml:/system/etc/camera/ov8858_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov8865_chromatix.xml:/system/etc/camera/ov8865_chromatix.xml \
-    vendor/xiaomi/gemini/proprietary/etc/camera/ov13850_chromatix.xml:/system/etc/camera/ov13850_chromatix.xml \
-    vendor/xiaomi/gemini/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:/system/etc/camera/ov13850_q13v06k_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/s5k3m2xm_chromatix.xml:/system/etc/camera/s5k3m2xm_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/s5k3m2xx_chromatix.xml:/system/etc/camera/s5k3m2xx_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/crown_156_128.bin:/system/etc/crown_156_128.bin \
@@ -114,13 +116,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a530v2_seq.fw2:/system/etc/firmware/a530v2_seq.fw2 \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a530v3_gpmu.fw2:/system/etc/firmware/a530v3_gpmu.fw2 \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a530v3_seq.fw2:/system/etc/firmware/a530v3_seq.fw2 \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:/system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:/system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:/system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:/system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:/system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:/system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/nvm_tlv.bin:/system/etc/firmware/nvm_tlv.bin \
     vendor/xiaomi/gemini/proprietary/etc/firmware/nvm_tlv_1.3.bin:/system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/xiaomi/gemini/proprietary/etc/firmware/nvm_tlv_2.1.bin:/system/etc/firmware/nvm_tlv_2.1.bin \
@@ -131,13 +133,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:/system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/xiaomi/gemini/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:/system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/xiaomi/gemini/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:/system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:/system/etc/firmware/tfa98xx.cnt \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa9891.cnt:/system/etc/firmware/tfa9891.cnt \
+    vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:/system/etc/firmware/tfa98xx.cnt \
     vendor/xiaomi/gemini/proprietary/etc/gps_diag.cfg:/system/etc/gps_diag.cfg \
-    vendor/xiaomi/gemini/proprietary/etc/init.leds.sh:/system/etc/init.leds.sh \
-    vendor/xiaomi/gemini/proprietary/etc/libnfc-brcm.conf:/system/etc/libnfc-brcm.conf \
-    vendor/xiaomi/gemini/proprietary/etc/libnfc-nxp.conf:/system/etc/libnfc-nxp.conf \
-    vendor/xiaomi/gemini/proprietary/etc/nfcee_access.xml:/system/etc/nfcee_access.xml \
+    vendor/xiaomi/gemini/proprietary/etc/modem/Diag.cfg:/system/etc/modem/Diag.cfg \
     vendor/xiaomi/gemini/proprietary/etc/permissions/dpmapi.xml:/system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/qcnvitems.xml:/system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/qcrilhook.xml:/system/etc/permissions/qcrilhook.xml \
@@ -159,7 +158,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:/system/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
     vendor/xiaomi/gemini/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:/system/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
     vendor/xiaomi/gemini/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin:/system/etc/usf/proximity/cfg_mtp/usf_ranging_mtp_algo_transparent_data.bin \
-    vendor/xiaomi/gemini/proprietary/etc/usf_settings.sh:/system/etc/usf_settings.sh \
+    vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:/system/lib/hw/camera.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:/system/lib/hw/consumerir.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:/system/lib/hw/fingerprint.fpc.so \
+    vendor/xiaomi/gemini/proprietary/lib/hw/sensors.msm8996.so:/system/lib/hw/sensors.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/lib/libOmxVpp.so:/system/lib/libOmxVpp.so \
+    vendor/xiaomi/gemini/proprietary/lib/libcom_fingerprints_service.so:/system/lib/libcom_fingerprints_service.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
+    vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
+    vendor/xiaomi/gemini/proprietary/lib/libqti_performance.so:/system/lib/libqti_performance.so \
+    vendor/xiaomi/gemini/proprietary/lib/libultrasound.so:/system/lib/libultrasound.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/consumerir.msm8996.so:/system/lib64/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:/system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/nfc_nci.pn54x.default.so:/system/lib64/hw/nfc_nci.pn54x.default.so \
@@ -170,18 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_cal.so:/system/lib64/libsensor_cal.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_calJNI.so:/system/lib64/libsensor_calJNI.so \
     vendor/xiaomi/gemini/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:/system/lib64/soundfx/libqcomvoiceprocessing.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:/system/lib/hw/camera.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:/system/lib/hw/consumerir.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:/system/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/sensors.msm8996.so:/system/lib/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/libcom_fingerprints_service.so:/system/lib/libcom_fingerprints_service.so \
-    vendor/xiaomi/gemini/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
-    vendor/xiaomi/gemini/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
-    vendor/xiaomi/gemini/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/gemini/proprietary/lib/libOmxVpp.so:/system/lib/libOmxVpp.so \
-    vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
-    vendor/xiaomi/gemini/proprietary/lib/libqti_performance.so:/system/lib/libqti_performance.so \
-    vendor/xiaomi/gemini/proprietary/lib/libultrasound.so:/system/lib/libultrasound.so \
     vendor/xiaomi/gemini/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:/system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/xiaomi/gemini/proprietary/usr/idc/uinput-fpc.idc:/system/usr/idc/uinput-fpc.idc \
     vendor/xiaomi/gemini/proprietary/usr/idc/usf_tsc.idc:/system/usr/idc/usf_tsc.idc \
@@ -199,192 +197,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/bin/qti:/system/vendor/bin/qti \
     vendor/xiaomi/gemini/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
     vendor/xiaomi/gemini/proprietary/vendor/default.prop:/system/vendor/default.prop \
+    vendor/xiaomi/gemini/proprietary/vendor/etc/RIDL/qdss.cfg:/system/vendor/etc/RIDL/qdss.cfg \
+    vendor/xiaomi/gemini/proprietary/vendor/etc/msm_irqbalance.conf:/system/vendor/etc/msm_irqbalance.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile0.conf:/system/vendor/etc/perf-profile0.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile1.conf:/system/vendor/etc/perf-profile1.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile2.conf:/system/vendor/etc/perf-profile2.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile3.conf:/system/vendor/etc/perf-profile3.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile4.conf:/system/vendor/etc/perf-profile4.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile5.conf:/system/vendor/etc/perf-profile5.conf \
-    vendor/xiaomi/gemini/proprietary/vendor/etc/RIDL/qdss.cfg:/system/vendor/etc/RIDL/qdss.cfg \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/libpn548ad_fw.so:/system/vendor/firmware/libpn548ad_fw.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:/system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libEGL_adreno.so:/system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:/system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:/system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:/system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libq3dtools_esx.so:/system/vendor/lib64/egl/libq3dtools_esx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libQTapGLES.so:/system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:/system/vendor/lib64/hw/activity_recognition.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/fingerprint.qcom.so:/system/vendor/lib64/hw/fingerprint.qcom.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:/system/vendor/lib64/hw/gatekeeper.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/keystore.msm8996.so:/system/vendor/lib64/hw/keystore.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/lib-ims-rcscmjni.so:/system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/lib-sec-disp.so:/system/vendor/lib64/lib-sec-disp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libacdb-fts.so:/system/vendor/lib64/libacdb-fts.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libacdbloader.so:/system/vendor/lib64/libacdbloader.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libacdbrtac.so:/system/vendor/lib64/libacdbrtac.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libadiertac.so:/system/vendor/lib64/libadiertac.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libadreno_utils.so:/system/vendor/lib64/libadreno_utils.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libadsprpc.so:/system/vendor/lib64/libadsprpc.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1cper.so:/system/vendor/lib64/libasn1cper.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1crt.so:/system/vendor/lib64/libasn1crt.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1crtx.so:/system/vendor/lib64/libasn1crtx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudcal.so:/system/vendor/lib64/libaudcal.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudiodevarb.so:/system/vendor/lib64/libaudiodevarb.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libavenhancements.so:/system/vendor/lib64/libavenhancements.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libbtnv.so:/system/vendor/lib64/libbtnv.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libC2D2.so:/system/vendor/lib64/libC2D2.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a3xx.so:/system/vendor/lib64/libc2d30-a3xx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a4xx.so:/system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a5xx.so:/system/vendor/lib64/libc2d30-a5xx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30_bltlib.so:/system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libCB.so:/system/vendor/lib64/libCB.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libcneapiclient.so:/system/vendor/lib64/libcneapiclient.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libconfigdb.so:/system/vendor/lib64/libconfigdb.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libconnctrl.so:/system/vendor/lib64/libconnctrl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdataitems.so:/system/vendor/lib64/libdataitems.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdiag.so:/system/vendor/lib64/libdiag.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdisp-aba.so:/system/vendor/lib64/libdisp-aba.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdpmtcm.so:/system/vendor/lib64/libdpmtcm.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdrmfs.so:/system/vendor/lib64/libdrmfs.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdrmtime.so:/system/vendor/lib64/libdrmtime.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdsi_netctrl.so:/system/vendor/lib64/libdsi_netctrl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdsutils.so:/system/vendor/lib64/libdsutils.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libEGL_adreno.so:/system/vendor/lib64/libEGL_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libfastcvadsp_stub.so:/system/vendor/lib64/libfastcvadsp_stub.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libfastcvopt.so:/system/vendor/lib64/libfastcvopt.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libflp.so:/system/vendor/lib64/libflp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libgdtap.so:/system/vendor/lib64/libgdtap.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libgeofence.so:/system/vendor/lib64/libgeofence.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libgsl.so:/system/vendor/lib64/libgsl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libhdcp1prov.so:/system/vendor/lib64/libhdcp1prov.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libidl.so:/system/vendor/lib64/libidl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libizat_core.so:/system/vendor/lib64/libizat_core.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblbs_core.so:/system/vendor/lib64/liblbs_core.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libllvm-glnext.so:/system/vendor/lib64/libllvm-glnext.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libllvm-qcom.so:/system/vendor/lib64/libllvm-qcom.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice.so:/system/vendor/lib64/liblocationservice.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice_glue.so:/system/vendor/lib64/liblocationservice_glue.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblowi_client.so:/system/vendor/lib64/liblowi_client.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblqe.so:/system/vendor/lib64/liblqe.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmare-1.1.so:/system/vendor/lib64/libmare-1.1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmare-cpu-1.1.so:/system/vendor/lib64/libmare-cpu-1.1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdmdetect.so:/system/vendor/lib64/libmdmdetect.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtp.so:/system/vendor/lib64/libmdtp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtp_crypto.so:/system/vendor/lib64/libmdtp_crypto.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtpdemojni.so:/system/vendor/lib64/libmdtpdemojni.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-abl-oem.so:/system/vendor/lib64/libmm-abl-oem.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-als.so:/system/vendor/lib64/libmm-als.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-color-convertor.so:/system/vendor/lib64/libmm-color-convertor.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-qdcm.so:/system/vendor/lib64/libmm-qdcm.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera2_is.so:/system/vendor/lib64/libmmcamera2_is.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:/system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera_dbg.so:/system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:/system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmi.so:/system/vendor/lib64/libmmi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmparser_lite.so:/system/vendor/lib64/libmmparser_lite.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmQSM.so:/system/vendor/lib64/libmmQSM.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libNimsWrap.so:/system/vendor/lib64/libNimsWrap.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxAlacDec.so:/system/vendor/lib64/libOmxAlacDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:/system/vendor/lib64/libOmxAmrwbplusDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxApeDec.so:/system/vendor/lib64/libOmxApeDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxEvrcDec.so:/system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxQcelp13Dec.so:/system/vendor/lib64/libOmxQcelp13Dec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxWmaDec.so:/system/vendor/lib64/libOmxWmaDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOpenCL.so:/system/vendor/lib64/libOpenCL.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libperipheral_client.so:/system/vendor/lib64/libperipheral_client.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxadapter.so:/system/vendor/lib64/libproxadapter.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxsockadapter.so:/system/vendor/lib64/libproxsockadapter.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libpvr.so:/system/vendor/lib64/libpvr.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQBLAS-0.13.0.so:/system/vendor/lib64/libQBLAS-0.13.0.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqc-opt.so:/system/vendor/lib64/libqc-opt.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcci_legacy.so:/system/vendor/lib64/libqcci_legacy.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcmaputils.so:/system/vendor/lib64/libqcmaputils.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcproximity.so:/system/vendor/lib64/libqcproximity.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqdi.so:/system/vendor/lib64/libqdi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqdp.so:/system/vendor/lib64/libqdp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqfp-service.so:/system/vendor/lib64/libqfp-service.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqisl.so:/system/vendor/lib64/libqisl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi.so:/system/vendor/lib64/libqmi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_cci.so:/system/vendor/lib64/libqmi_cci.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_client_qmux.so:/system/vendor/lib64/libqmi_client_qmux.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_common_so.so:/system/vendor/lib64/libqmi_common_so.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_csi.so:/system/vendor/lib64/libqmi_csi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_encdec.so:/system/vendor/lib64/libqmi_encdec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmiservices.so:/system/vendor/lib64/libqmiservices.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQPayJNI.so:/system/vendor/lib64/libQPayJNI.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQSEEComAPI.so:/system/vendor/lib64/libQSEEComAPI.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-at.so:/system/vendor/lib64/libqti-at.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-gt.so:/system/vendor/lib64/libqti-gt.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-iop-client.so:/system/vendor/lib64/libqti-iop-client.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-perfd-client.so:/system/vendor/lib64/libqti-perfd-client.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-wl.so:/system/vendor/lib64/libqti-wl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQtiTether.so:/system/vendor/lib64/libQtiTether.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libquipc_os_api.so:/system/vendor/lib64/libquipc_os_api.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqvop-service.so:/system/vendor/lib64/libqvop-service.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/librcc.so:/system/vendor/lib64/librcc.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/librmp.so:/system/vendor/lib64/librmp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/librpmb.so:/system/vendor/lib64/librpmb.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/librs_adreno.so:/system/vendor/lib64/librs_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/librs_adreno_sha1.so:/system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libRSDriver_adreno.so:/system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libscalar.so:/system/vendor/lib64/libscalar.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsd_sdk_display.so:/system/vendor/lib64/libsd_sdk_display.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdm-color.so:/system/vendor/lib64/libsdm-color.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdm-diag.so:/system/vendor/lib64/libsdm-diag.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdm-disp-apis.so:/system/vendor/lib64/libsdm-disp-apis.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdmextension.so:/system/vendor/lib64/libsdmextension.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui.so:/system/vendor/lib64/libsecureui.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui_svcsock.so:/system/vendor/lib64/libsecureui_svcsock.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureuisvc_jni.so:/system/vendor/lib64/libsecureuisvc_jni.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libseemp_binder.so:/system/vendor/lib64/libseemp_binder.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libseempnative.so:/system/vendor/lib64/libseempnative.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor1.so:/system/vendor/lib64/libsensor1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_reg.so:/system/vendor/lib64/libsensor_reg.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_test.so:/system/vendor/lib64/libsensor_test.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_user_cal.so:/system/vendor/lib64/libsensor_user_cal.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsi.so:/system/vendor/lib64/libsi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libslimclient.so:/system/vendor/lib64/libslimclient.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsmemlog.so:/system/vendor/lib64/libsmemlog.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libSonyIMX298PdafLibrary.so:/system/vendor/lib64/libSonyIMX298PdafLibrary.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libssd.so:/system/vendor/lib64/libssd.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so:/system/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:/system/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libstaapi.so:/system/vendor/lib64/libstaapi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libstlport_sta.so:/system/vendor/lib64/libstlport_sta.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libthermalclient.so:/system/vendor/lib64/libthermalclient.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libthermalioctl.so:/system/vendor/lib64/libthermalioctl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libTimeService.so:/system/vendor/lib64/libTimeService.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libual.so:/system/vendor/lib64/libual.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libualutil.so:/system/vendor/lib64/libualutil.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libulp2.so:/system/vendor/lib64/libulp2.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libusndroute.so:/system/vendor/lib64/libusndroute.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libusutils.so:/system/vendor/lib64/libusutils.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libvpphvx.so:/system/vendor/lib64/libvpphvx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libwfdmmservice.so:/system/vendor/lib64/libwfdmmservice.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libwms.so:/system/vendor/lib64/libwms.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libxml.so:/system/vendor/lib64/libxml.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libxtadapter.so:/system/vendor/lib64/libxtadapter.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:/system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/sensors.oem.so:/system/vendor/lib64/sensors.oem.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/sensors.ssc.so:/system/vendor/lib64/sensors.ssc.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcbassboost.so:/system/vendor/lib64/soundfx/libqcbassboost.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcreverb.so:/system/vendor/lib64/soundfx/libqcreverb.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcvirt.so:/system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:/system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libGLESv2_adreno.so:/system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libQTapGLES.so:/system/vendor/lib/egl/libQTapGLES.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libq3dtools_esx.so:/system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/egl/libQTapGLES.so:/system/vendor/lib/egl/libQTapGLES.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:/system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:/system/vendor/lib/hw/gatekeeper.msm8996.so \
@@ -392,6 +220,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:/system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/lib-ims-rcscmjni.so:/system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/lib-sec-disp.so:/system/vendor/lib/lib-sec-disp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libChamomilePA.so:/system/vendor/lib/libChamomilePA.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libEGL_adreno.so:/system/vendor/lib/libEGL_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libNimsWrap.so:/system/vendor/lib/libNimsWrap.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxAlacDec.so:/system/vendor/lib/libOmxAlacDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxApeDec.so:/system/vendor/lib/libOmxApeDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxVideoDSMode.so:/system/vendor/lib/libOmxVideoDSMode.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libQtiTether.so:/system/vendor/lib/libQtiTether.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:/system/vendor/lib/libSonyIMX298PdafLibrary.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libTimeService.so:/system/vendor/lib/libTimeService.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libacdb-fts.so:/system/vendor/lib/libacdb-fts.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
@@ -420,19 +268,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libavenhancements.so:/system/vendor/lib/libavenhancements.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libbccQTI.so:/system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libbtnv.so:/system/vendor/lib/libbtnv.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libc2d30-a4xx.so:/system/vendor/lib/libc2d30-a4xx.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libc2d30-a5xx.so:/system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libc2d30_bltlib.so:/system/vendor/lib/libc2d30_bltlib.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libCB.so:/system/vendor/lib/libCB.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libChamomilePA.so:/system/vendor/lib/libChamomilePA.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_4k_preview_lc898122.so:/system/vendor/lib/libchromatix_imx214_4k_preview_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_4k_video_lc898122.so:/system/vendor/lib/libchromatix_imx214_4k_video_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_common.so:/system/vendor/lib/libchromatix_imx214_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx214_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx214_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx214_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx214_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx214_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_preview.so:/system/vendor/lib/libchromatix_imx214_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx214_cpp_snapshot.so \
@@ -442,12 +287,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_default_preview_lc898122.so:/system/vendor/lib/libchromatix_imx214_default_preview_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_default_video.so:/system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_default_video_lc898122.so:/system/vendor/lib/libchromatix_imx214_default_video_lc898122.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:/system/vendor/lib/libchromatix_imx214_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_120_lc898122.so:/system/vendor/lib/libchromatix_imx214_hfr_120_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:/system/vendor/lib/libchromatix_imx214_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_60_lc898122.so:/system/vendor/lib/libchromatix_imx214_hfr_60_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_90.so:/system/vendor/lib/libchromatix_imx214_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_90_lc898122.so:/system/vendor/lib/libchromatix_imx214_hfr_90_lc898122.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:/system/vendor/lib/libchromatix_imx214_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_hfr_120_lc898122.so:/system/vendor/lib/libchromatix_imx214_hfr_120_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_liveshot.so:/system/vendor/lib/libchromatix_imx214_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_postproc.so:/system/vendor/lib/libchromatix_imx214_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_preview.so:/system/vendor/lib/libchromatix_imx214_preview.so \
@@ -456,15 +301,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:/system/vendor/lib/libchromatix_imx214_video_hdr.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_zsl_preview_lc898122.so:/system/vendor/lib/libchromatix_imx214_zsl_preview_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_zsl_video_lc898122.so:/system/vendor/lib/libchromatix_imx214_zsl_video_lc898122.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_1080p_preview_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_1080p_preview_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_1080p_video_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_1080p_video_lc898212xd.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_4k_preview_lc898212xd.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_4k_video_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_common.so:/system/vendor/lib/libchromatix_imx230_common.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx230_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_240.so:/system/vendor/lib/libchromatix_imx230_cpp_hfr_240.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx230_cpp_hfr_60.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx230_cpp_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx230_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:/system/vendor/lib/libchromatix_imx230_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
@@ -477,30 +322,30 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_default_video_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hdr_snapshot_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hdr_video_lc898212xd.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:/system/vendor/lib/libchromatix_imx230_hfr_60.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:/system/vendor/lib/libchromatix_imx230_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_120.so:/system/vendor/lib/libchromatix_imx230_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hfr_120_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_240.so:/system/vendor/lib/libchromatix_imx230_hfr_240.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hfr_240_lc898212xd.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_60.so:/system/vendor/lib/libchromatix_imx230_hfr_60.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hfr_60_lc898212xd.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_90.so:/system/vendor/lib/libchromatix_imx230_hfr_90.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_hfr_90_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_liveshot.so:/system/vendor/lib/libchromatix_imx230_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_postproc.so:/system/vendor/lib/libchromatix_imx230_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_preview.so:/system/vendor/lib/libchromatix_imx230_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_snapshot.so:/system/vendor/lib/libchromatix_imx230_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_snapshot_hdr.so:/system/vendor/lib/libchromatix_imx230_snapshot_hdr.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:/system/vendor/lib/libchromatix_imx230_video_4k.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_video_16M_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_video_16M_lc898212xd.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_video_4k.so:/system/vendor/lib/libchromatix_imx230_video_4k.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:/system/vendor/lib/libchromatix_imx230_video_hdr.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_4k_preview_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_4k_preview_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_4k_video_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_4k_video_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_common.so:/system/vendor/lib/libchromatix_imx258_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx258_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx258_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx258_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx258_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx258_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_preview.so:/system/vendor/lib/libchromatix_imx258_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx258_cpp_snapshot.so \
@@ -509,12 +354,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_default_preview_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_default_preview_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_default_video.so:/system/vendor/lib/libchromatix_imx258_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_default_video_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_default_video_bu64244gwz.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:/system/vendor/lib/libchromatix_imx258_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_60.so:/system/vendor/lib/libchromatix_imx258_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_60_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_hfr_60_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_90.so:/system/vendor/lib/libchromatix_imx258_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_90_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_hfr_90_bu64244gwz.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:/system/vendor/lib/libchromatix_imx258_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_liveshot.so:/system/vendor/lib/libchromatix_imx258_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_postproc.so:/system/vendor/lib/libchromatix_imx258_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_preview.so:/system/vendor/lib/libchromatix_imx258_preview.so \
@@ -523,20 +368,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so:/system/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_common.so:/system/vendor/lib/libchromatix_imx268_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx268_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx268_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx268_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx268_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx268_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_preview.so:/system/vendor/lib/libchromatix_imx268_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx268_cpp_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_cpp_video.so:/system/vendor/lib/libchromatix_imx268_cpp_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_default_video.so:/system/vendor/lib/libchromatix_imx268_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_120.so:/system/vendor/lib/libchromatix_imx268_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_120_bu64245.so:/system/vendor/lib/libchromatix_imx268_hfr_120_bu64245.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_60.so:/system/vendor/lib/libchromatix_imx268_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_60_bu64245.so:/system/vendor/lib/libchromatix_imx268_hfr_60_bu64245.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_90.so:/system/vendor/lib/libchromatix_imx268_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_90_bu64245.so:/system/vendor/lib/libchromatix_imx268_hfr_90_bu64245.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_120.so:/system/vendor/lib/libchromatix_imx268_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_hfr_120_bu64245.so:/system/vendor/lib/libchromatix_imx268_hfr_120_bu64245.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_liveshot.so:/system/vendor/lib/libchromatix_imx268_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_postproc.so:/system/vendor/lib/libchromatix_imx268_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx268_preview.so:/system/vendor/lib/libchromatix_imx268_preview.so \
@@ -546,9 +391,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_4K_preview.so:/system/vendor/lib/libchromatix_imx298_4K_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_4K_video.so:/system/vendor/lib/libchromatix_imx298_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_common.so:/system/vendor/lib/libchromatix_imx298_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx298_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx298_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx298_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_preview.so:/system/vendor/lib/libchromatix_imx298_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx298_cpp_snapshot.so \
@@ -559,18 +404,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_default_video.so:/system/vendor/lib/libchromatix_imx298_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hdr_snapshot_3a.so:/system/vendor/lib/libchromatix_imx298_hdr_snapshot_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hdr_video_3a.so:/system/vendor/lib/libchromatix_imx298_hdr_video_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_120.so:/system/vendor/lib/libchromatix_imx298_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx298_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_60.so:/system/vendor/lib/libchromatix_imx298_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx298_hfr_60_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_90.so:/system/vendor/lib/libchromatix_imx298_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx298_hfr_90_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_120.so:/system/vendor/lib/libchromatix_imx298_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx298_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_4K_preview.so:/system/vendor/lib/libchromatix_imx298_liteon_4K_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_4K_video.so:/system/vendor/lib/libchromatix_imx298_liteon_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_common.so:/system/vendor/lib/libchromatix_imx298_liteon_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_preview.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx298_liteon_cpp_snapshot.so \
@@ -581,12 +426,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_default_video.so:/system/vendor/lib/libchromatix_imx298_liteon_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hdr_snapshot_3a.so:/system/vendor/lib/libchromatix_imx298_liteon_hdr_snapshot_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hdr_video_3a.so:/system/vendor/lib/libchromatix_imx298_liteon_hdr_video_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_120.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_60.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_60_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_90.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_90_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_120.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx298_liteon_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_liveshot.so:/system/vendor/lib/libchromatix_imx298_liteon_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_postproc.so:/system/vendor/lib/libchromatix_imx298_liteon_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_liteon_preview.so:/system/vendor/lib/libchromatix_imx298_liteon_preview.so \
@@ -601,9 +446,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_4K_preview.so:/system/vendor/lib/libchromatix_imx298_semco_4K_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_4K_video.so:/system/vendor/lib/libchromatix_imx298_semco_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_common.so:/system/vendor/lib/libchromatix_imx298_semco_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_preview.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx298_semco_cpp_snapshot.so \
@@ -614,12 +459,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_default_video.so:/system/vendor/lib/libchromatix_imx298_semco_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hdr_snapshot_3a.so:/system/vendor/lib/libchromatix_imx298_semco_hdr_snapshot_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hdr_video_3a.so:/system/vendor/lib/libchromatix_imx298_semco_hdr_video_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_120.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_60.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_60_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_90.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_90_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_120.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx298_semco_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_liveshot.so:/system/vendor/lib/libchromatix_imx298_semco_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_postproc.so:/system/vendor/lib/libchromatix_imx298_semco_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_semco_preview.so:/system/vendor/lib/libchromatix_imx298_semco_preview.so \
@@ -634,14 +479,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_video_hdr.so:/system/vendor/lib/libchromatix_imx298_video_hdr.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:/system/vendor/lib/libchromatix_imx298_zsl_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:/system/vendor/lib/libchromatix_imx298_zsl_video.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_4K_preview.so:/system/vendor/lib/libchromatix_imx318_4K_preview.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_4K_video.so:/system/vendor/lib/libchromatix_imx318_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_1080p_preview.so:/system/vendor/lib/libchromatix_imx318_1080p_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_1080p_video.so:/system/vendor/lib/libchromatix_imx318_1080p_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_4K_preview.so:/system/vendor/lib/libchromatix_imx318_4K_preview.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_4K_video.so:/system/vendor/lib/libchromatix_imx318_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_common.so:/system/vendor/lib/libchromatix_imx318_common.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx318_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx318_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:/system/vendor/lib/libchromatix_imx318_cpp_hfr_240.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx318_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx318_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_preview.so:/system/vendor/lib/libchromatix_imx318_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx318_cpp_snapshot.so \
@@ -653,25 +498,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_default_video.so:/system/vendor/lib/libchromatix_imx318_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hdr_snapshot_3a.so:/system/vendor/lib/libchromatix_imx318_hdr_snapshot_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hdr_video_3a.so:/system/vendor/lib/libchromatix_imx318_hdr_video_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:/system/vendor/lib/libchromatix_imx318_hfr_60.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx318_hfr_60_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_90.so:/system/vendor/lib/libchromatix_imx318_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx318_hfr_90_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_120.so:/system/vendor/lib/libchromatix_imx318_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx318_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_240.so:/system/vendor/lib/libchromatix_imx318_hfr_240.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_240_3a.so:/system/vendor/lib/libchromatix_imx318_hfr_240_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:/system/vendor/lib/libchromatix_imx318_hfr_60.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx318_hfr_60_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_90.so:/system/vendor/lib/libchromatix_imx318_hfr_90.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx318_hfr_90_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_liveshot.so:/system/vendor/lib/libchromatix_imx318_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_postproc.so:/system/vendor/lib/libchromatix_imx318_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_preview.so:/system/vendor/lib/libchromatix_imx318_preview.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_4K_preview.so:/system/vendor/lib/libchromatix_imx318_semco_4K_preview.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_4K_video.so:/system/vendor/lib/libchromatix_imx318_semco_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_1080p_preview.so:/system/vendor/lib/libchromatix_imx318_semco_1080p_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_1080p_video.so:/system/vendor/lib/libchromatix_imx318_semco_1080p_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_4K_preview.so:/system/vendor/lib/libchromatix_imx318_semco_4K_preview.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_4K_video.so:/system/vendor/lib/libchromatix_imx318_semco_4K_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_common.so:/system/vendor/lib/libchromatix_imx318_semco_common.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_240.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_240.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_preview.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx318_semco_cpp_snapshot.so \
@@ -683,14 +528,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_default_video.so:/system/vendor/lib/libchromatix_imx318_semco_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hdr_snapshot_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hdr_snapshot_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hdr_video_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hdr_video_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_60.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_60.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_60_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_90.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_90_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_120.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_240.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_240.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_240_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_240_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_60.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_60.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_60_3a.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_90.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_90.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx318_semco_hfr_90_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_liveshot.so:/system/vendor/lib/libchromatix_imx318_semco_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_postproc.so:/system/vendor/lib/libchromatix_imx318_semco_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_semco_preview.so:/system/vendor/lib/libchromatix_imx318_semco_preview.so \
@@ -706,14 +551,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_video_hdr.so:/system/vendor/lib/libchromatix_imx318_video_hdr.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_zsl_preview.so:/system/vendor/lib/libchromatix_imx318_zsl_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx318_zsl_video.so:/system/vendor/lib/libchromatix_imx318_zsl_video.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_4k_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_4k_preview.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_4k_video.so:/system/vendor/lib/libchromatix_imx378_liteon_4k_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_1080p_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_1080p_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_1080p_video.so:/system/vendor/lib/libchromatix_imx378_liteon_1080p_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_4k_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_4k_preview.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_4k_video.so:/system/vendor/lib/libchromatix_imx378_liteon_4k_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_common.so:/system/vendor/lib/libchromatix_imx378_liteon_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_90.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_snapshot.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_snapshot.so \
@@ -721,12 +566,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_cpp_video_4k.so:/system/vendor/lib/libchromatix_imx378_liteon_cpp_video_4k.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_default_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_default_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_default_video.so:/system/vendor/lib/libchromatix_imx378_liteon_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_120.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_60.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_60_3a.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_60_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_90.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_90_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_120.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_hfr_120_3a.so:/system/vendor/lib/libchromatix_imx378_liteon_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_liveshot.so:/system/vendor/lib/libchromatix_imx378_liteon_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_postproc.so:/system/vendor/lib/libchromatix_imx378_liteon_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_preview.so \
@@ -735,21 +580,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_video_4k.so:/system/vendor/lib/libchromatix_imx378_liteon_video_4k.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_zsl_preview.so:/system/vendor/lib/libchromatix_imx378_liteon_zsl_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx378_liteon_zsl_video.so:/system/vendor/lib/libchromatix_imx378_liteon_zsl_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_common.so:/system/vendor/lib/libchromatix_ov13850_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:/system/vendor/lib/libchromatix_ov13850_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_preview.so:/system/vendor/lib/libchromatix_ov13850_preview.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:/system/vendor/lib/libchromatix_ov13850_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_common.so:/system/vendor/lib/libchromatix_ov4688_a7_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_liveshot.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_preview.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_snapshot.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_cpp_video.so:/system/vendor/lib/libchromatix_ov4688_a7_cpp_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_default_video.so:/system/vendor/lib/libchromatix_ov4688_a7_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_60_ad5823.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_60_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_90_ad5823.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_90_ad5823.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_a7_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_liveshot.so:/system/vendor/lib/libchromatix_ov4688_a7_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_postproc.so:/system/vendor/lib/libchromatix_ov4688_a7_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_preview.so:/system/vendor/lib/libchromatix_ov4688_a7_preview.so \
@@ -757,38 +606,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_zsl_preview_ad5823.so:/system/vendor/lib/libchromatix_ov4688_a7_zsl_preview_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_a7_zsl_video_ad5823.so:/system/vendor/lib/libchromatix_ov4688_a7_zsl_video_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_common.so:/system/vendor/lib/libchromatix_ov4688_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_liveshot.so:/system/vendor/lib/libchromatix_ov4688_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_preview.so:/system/vendor/lib/libchromatix_ov4688_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_snapshot.so:/system/vendor/lib/libchromatix_ov4688_cpp_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_cpp_video.so:/system/vendor/lib/libchromatix_ov4688_cpp_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_default_video.so:/system/vendor/lib/libchromatix_ov4688_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_60_ad5823.so:/system/vendor/lib/libchromatix_ov4688_hfr_60_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_90_ad5823.so:/system/vendor/lib/libchromatix_ov4688_hfr_90_ad5823.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_liveshot.so:/system/vendor/lib/libchromatix_ov4688_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_postproc.so:/system/vendor/lib/libchromatix_ov4688_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_preview.so:/system/vendor/lib/libchromatix_ov4688_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_common.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_liveshot.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_preview.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_snapshot.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_cpp_video.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_cpp_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_default_video.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_60_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_60_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_90_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_90_ad5823.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_liveshot.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_postproc.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_preview.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_preview.so \
@@ -796,20 +645,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_zsl_preview_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_zsl_preview_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_a7_zsl_video_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_a7_zsl_video_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_common.so:/system/vendor/lib/libchromatix_ov4688_primax_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_liveshot.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_preview.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_snapshot.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_cpp_video.so:/system/vendor/lib/libchromatix_ov4688_primax_cpp_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_default_video.so:/system/vendor/lib/libchromatix_ov4688_primax_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_60.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_60_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_60_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_90.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_90_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_90_ad5823.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_120.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_hfr_120_ad5823.so:/system/vendor/lib/libchromatix_ov4688_primax_hfr_120_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_liveshot.so:/system/vendor/lib/libchromatix_ov4688_primax_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_postproc.so:/system/vendor/lib/libchromatix_ov4688_primax_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_primax_preview.so:/system/vendor/lib/libchromatix_ov4688_primax_preview.so \
@@ -821,14 +670,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so:/system/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_a3_default_preview.so:/system/vendor/lib/libchromatix_ov5670_a3_default_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_a3_default_video.so:/system/vendor/lib/libchromatix_ov5670_a3_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_a3_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_60.so:/system/vendor/lib/libchromatix_ov5670_a3_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_90.so:/system/vendor/lib/libchromatix_ov5670_a3_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_a3_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_a3_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_common.so:/system/vendor/lib/libchromatix_ov5670_common.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_ds_chromatix.so:/system/vendor/lib/libchromatix_ov5670_cpp_ds_chromatix.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_60.so:/system/vendor/lib/libchromatix_ov5670_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_90.so:/system/vendor/lib/libchromatix_ov5670_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_liveshot.so:/system/vendor/lib/libchromatix_ov5670_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_preview.so:/system/vendor/lib/libchromatix_ov5670_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_snapshot.so:/system/vendor/lib/libchromatix_ov5670_cpp_snapshot.so \
@@ -836,9 +685,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_video.so:/system/vendor/lib/libchromatix_ov5670_cpp_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_cpp_video_full.so:/system/vendor/lib/libchromatix_ov5670_cpp_video_full.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_default_video.so:/system/vendor/lib/libchromatix_ov5670_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_hfr_60.so:/system/vendor/lib/libchromatix_ov5670_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_hfr_90.so:/system/vendor/lib/libchromatix_ov5670_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_postproc.so:/system/vendor/lib/libchromatix_ov5670_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_preview.so:/system/vendor/lib/libchromatix_ov5670_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov5670_snapshot.so:/system/vendor/lib/libchromatix_ov5670_snapshot.so \
@@ -850,18 +699,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:/system/vendor/lib/libchromatix_ov8858_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov8858_preview.so:/system/vendor/lib/libchromatix_ov8858_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:/system/vendor/lib/libchromatix_ov8858_snapshot.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_common.so:/system/vendor/lib/libchromatix_ov13850_common.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:/system/vendor/lib/libchromatix_ov13850_default_video.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_preview.so:/system/vendor/lib/libchromatix_ov13850_preview.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:/system/vendor/lib/libchromatix_ov13850_snapshot.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_4k_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_4k_preview.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_4k_video.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_4k_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_1080p_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_1080p_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_1080p_video.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_1080p_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_4k_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_4k_preview.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_4k_video.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_4k_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_common.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_120.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_60.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_90.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_120.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_liveshot.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_snapshot.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_snapshot.so \
@@ -869,12 +714,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_cpp_video_4k.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_cpp_video_4k.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_default_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_default_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_default_video.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_default_video.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120_3a.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_60.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_60_3a.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_60_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_90.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_90_3a.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_90_3a.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120_3a.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_hfr_120_3a.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_liveshot.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_postproc.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_preview.so \
@@ -884,9 +729,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_zsl_preview.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_zsl_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k2m8_liteon_zsl_video.so:/system/vendor/lib/libchromatix_s5k2m8_liteon_zsl_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_common.so:/system/vendor/lib/libchromatix_s5k3m2xm_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_snapshot.so \
@@ -894,26 +739,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_preview_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_default_preview_dw9761b.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video.so:/system/vendor/lib/libchromatix_s5k3m2xm_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_default_video_dw9761b.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_60_dw9761b.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_90_dw9761b.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_hfr_120_dw9761b.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_liveshot.so:/system/vendor/lib/libchromatix_s5k3m2xm_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_postproc.so:/system/vendor/lib/libchromatix_s5k3m2xm_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_preview.so:/system/vendor/lib/libchromatix_s5k3m2xm_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot.so:/system/vendor/lib/libchromatix_s5k3m2xm_snapshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so:/system/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_1080p_preview_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_1080p_video_ad5816g.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_4k_preview_ad5816g.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_4k_video_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:/system/vendor/lib/libchromatix_s5k3m2xx_common.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_90.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
@@ -922,12 +767,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video.so:/system/vendor/lib/libchromatix_s5k3m2xx_default_video.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_default_video_ad5816g.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_60.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_60_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_90.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_90_ad5816g.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_120.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so:/system/vendor/lib/libchromatix_s5k3m2xx_hfr_120_ad5816g.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_liveshot.so:/system/vendor/lib/libchromatix_s5k3m2xx_liveshot.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_postproc.so:/system/vendor/lib/libchromatix_s5k3m2xx_postproc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_s5k3m2xx_preview.so:/system/vendor/lib/libchromatix_s5k3m2xx_preview.so \
@@ -943,7 +788,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libdrc.so:/system/vendor/lib/libdrc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libdsutils.so:/system/vendor/lib/libdsutils.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libEGL_adreno.so:/system/vendor/lib/libEGL_adreno.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libflash_pmic.so:/system/vendor/lib/libflash_pmic.so \
@@ -952,7 +796,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libhdcp1prov.so:/system/vendor/lib/libhdcp1prov.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libidl.so:/system/vendor/lib/libidl.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
@@ -1055,6 +898,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:/system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:/system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:/system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov13850.so:/system/vendor/lib/libmmcamera_ov13850.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov2685.so:/system/vendor/lib/libmmcamera_ov2685.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688.so:/system/vendor/lib/libmmcamera_ov4688.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov4688_a7.so:/system/vendor/lib/libmmcamera_ov4688_a7.so \
@@ -1064,7 +908,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov5645.so:/system/vendor/lib/libmmcamera_ov5645.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov5670.so:/system/vendor/lib/libmmcamera_ov5670.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov8858.so:/system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ov13850.so:/system/vendor/lib/libmmcamera_ov13850.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_pdaf.so:/system/vendor/lib/libmmcamera_pdaf.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_pdafcamif.so:/system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_ppbase_module.so:/system/vendor/lib/libmmcamera_ppbase_module.so \
@@ -1088,17 +931,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmparser_lite.so:/system/vendor/lib/libmmparser_lite.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmqjpegdma.so:/system/vendor/lib/libmmqjpegdma.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libNimsWrap.so:/system/vendor/lib/libNimsWrap.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libois_lc898122.so:/system/vendor/lib/libois_lc898122.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxAlacDec.so:/system/vendor/lib/libOmxAlacDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxApeDec.so:/system/vendor/lib/libOmxApeDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxVideoDSMode.so:/system/vendor/lib/libOmxVideoDSMode.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libproxadapter.so:/system/vendor/lib/libproxadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libproxsockadapter.so:/system/vendor/lib/libproxsockadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libpvr.so:/system/vendor/lib/libpvr.so \
@@ -1119,22 +952,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqmiservices.so:/system/vendor/lib/libqmiservices.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:/system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqti-at.so:/system/vendor/lib/libqti-at.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqti-gt.so:/system/vendor/lib/libqti-gt.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqti-iop-client.so:/system/vendor/lib/libqti-iop-client.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqti-wl.so:/system/vendor/lib/libqti-wl.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libQtiTether.so:/system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libquipc_os_api.so:/system/vendor/lib/libquipc_os_api.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libqvop-service.so:/system/vendor/lib/libqvop-service.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/librcc.so:/system/vendor/lib/librcc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/librmp.so:/system/vendor/lib/librmp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:/system/vendor/lib/libscveTextRecoPostProcessing.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsd_sdk_display.so:/system/vendor/lib/libsd_sdk_display.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsecureui.so:/system/vendor/lib/libsecureui.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsecureui_svcsock.so:/system/vendor/lib/libsecureui_svcsock.so \
@@ -1149,14 +979,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libslimclient.so:/system/vendor/lib/libslimclient.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsmwrapper.so:/system/vendor/lib/libsmwrapper.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:/system/vendor/lib/libSonyIMX298PdafLibrary.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsta_lib_third_party_libsta_lib_libsta_gyp.so:/system/vendor/lib/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:/system/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libstaapi.so:/system/vendor/lib/libstaapi.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libstlport_sta.so:/system/vendor/lib/libstlport_sta.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsurround_3mic_proc.so:/system/vendor/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libTimeService.so:/system/vendor/lib/libTimeService.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libtm_interface.so:/system/vendor/lib/libtm_interface.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libual.so:/system/vendor/lib/libual.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libualutil.so:/system/vendor/lib/libualutil.so \
@@ -1173,4 +1001,175 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:/system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libEGL_adreno.so:/system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:/system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:/system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libQTapGLES.so:/system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:/system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/egl/libq3dtools_esx.so:/system/vendor/lib64/egl/libq3dtools_esx.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:/system/vendor/lib64/hw/activity_recognition.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/fingerprint.qcom.so:/system/vendor/lib64/hw/fingerprint.qcom.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/flp.default.so:/system/vendor/lib64/hw/flp.default.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:/system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/keystore.msm8996.so:/system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/lib-ims-rcscmjni.so:/system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/lib-sec-disp.so:/system/vendor/lib64/lib-sec-disp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libC2D2.so:/system/vendor/lib64/libC2D2.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libCB.so:/system/vendor/lib64/libCB.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libEGL_adreno.so:/system/vendor/lib64/libEGL_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libI420colorconvert.so:/system/vendor/lib64/libI420colorconvert.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libNimsWrap.so:/system/vendor/lib64/libNimsWrap.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxAlacDec.so:/system/vendor/lib64/libOmxAlacDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:/system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxApeDec.so:/system/vendor/lib64/libOmxApeDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxEvrcDec.so:/system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxQcelp13Dec.so:/system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOmxWmaDec.so:/system/vendor/lib64/libOmxWmaDec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libOpenCL.so:/system/vendor/lib64/libOpenCL.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQBLAS-0.13.0.so:/system/vendor/lib64/libQBLAS-0.13.0.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQPayJNI.so:/system/vendor/lib64/libQPayJNI.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQSEEComAPI.so:/system/vendor/lib64/libQSEEComAPI.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQtiTether.so:/system/vendor/lib64/libQtiTether.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libRSDriver_adreno.so:/system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libSonyIMX298PdafLibrary.so:/system/vendor/lib64/libSonyIMX298PdafLibrary.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libTimeService.so:/system/vendor/lib64/libTimeService.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libacdb-fts.so:/system/vendor/lib64/libacdb-fts.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libacdbloader.so:/system/vendor/lib64/libacdbloader.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libacdbrtac.so:/system/vendor/lib64/libacdbrtac.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libadiertac.so:/system/vendor/lib64/libadiertac.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libadreno_utils.so:/system/vendor/lib64/libadreno_utils.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libadsprpc.so:/system/vendor/lib64/libadsprpc.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1cper.so:/system/vendor/lib64/libasn1cper.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1crt.so:/system/vendor/lib64/libasn1crt.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1crtx.so:/system/vendor/lib64/libasn1crtx.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudcal.so:/system/vendor/lib64/libaudcal.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudiodevarb.so:/system/vendor/lib64/libaudiodevarb.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libavenhancements.so:/system/vendor/lib64/libavenhancements.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libbtnv.so:/system/vendor/lib64/libbtnv.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a3xx.so:/system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a4xx.so:/system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a5xx.so:/system/vendor/lib64/libc2d30-a5xx.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30_bltlib.so:/system/vendor/lib64/libc2d30_bltlib.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libcneapiclient.so:/system/vendor/lib64/libcneapiclient.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libconfigdb.so:/system/vendor/lib64/libconfigdb.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libconnctrl.so:/system/vendor/lib64/libconnctrl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdataitems.so:/system/vendor/lib64/libdataitems.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdiag.so:/system/vendor/lib64/libdiag.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdisp-aba.so:/system/vendor/lib64/libdisp-aba.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdpmtcm.so:/system/vendor/lib64/libdpmtcm.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdrmfs.so:/system/vendor/lib64/libdrmfs.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdrmtime.so:/system/vendor/lib64/libdrmtime.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdsi_netctrl.so:/system/vendor/lib64/libdsi_netctrl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libdsutils.so:/system/vendor/lib64/libdsutils.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libfastcvadsp_stub.so:/system/vendor/lib64/libfastcvadsp_stub.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libfastcvopt.so:/system/vendor/lib64/libfastcvopt.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libflp.so:/system/vendor/lib64/libflp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libgdtap.so:/system/vendor/lib64/libgdtap.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libgeofence.so:/system/vendor/lib64/libgeofence.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libgsl.so:/system/vendor/lib64/libgsl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libhdcp1prov.so:/system/vendor/lib64/libhdcp1prov.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libidl.so:/system/vendor/lib64/libidl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libizat_core.so:/system/vendor/lib64/libizat_core.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblbs_core.so:/system/vendor/lib64/liblbs_core.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libllvm-glnext.so:/system/vendor/lib64/libllvm-glnext.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libllvm-qcom.so:/system/vendor/lib64/libllvm-qcom.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice.so:/system/vendor/lib64/liblocationservice.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice_glue.so:/system/vendor/lib64/liblocationservice_glue.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblowi_client.so:/system/vendor/lib64/liblowi_client.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblqe.so:/system/vendor/lib64/liblqe.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmare-1.1.so:/system/vendor/lib64/libmare-1.1.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmare-cpu-1.1.so:/system/vendor/lib64/libmare-cpu-1.1.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdmdetect.so:/system/vendor/lib64/libmdmdetect.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtp.so:/system/vendor/lib64/libmdtp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtp_crypto.so:/system/vendor/lib64/libmdtp_crypto.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtpdemojni.so:/system/vendor/lib64/libmdtpdemojni.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-abl-oem.so:/system/vendor/lib64/libmm-abl-oem.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-als.so:/system/vendor/lib64/libmm-als.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-color-convertor.so:/system/vendor/lib64/libmm-color-convertor.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-qdcm.so:/system/vendor/lib64/libmm-qdcm.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmQSM.so:/system/vendor/lib64/libmmQSM.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera2_is.so:/system/vendor/lib64/libmmcamera2_is.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:/system/vendor/lib64/libmmcamera2_q3a_core.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera_dbg.so:/system/vendor/lib64/libmmcamera_dbg.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:/system/vendor/lib64/libmmcamera_tintless_algo.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmi.so:/system/vendor/lib64/libmmi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmparser_lite.so:/system/vendor/lib64/libmmparser_lite.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libnetmgr.so:/system/vendor/lib64/libnetmgr.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libperipheral_client.so:/system/vendor/lib64/libperipheral_client.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxadapter.so:/system/vendor/lib64/libproxadapter.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxsockadapter.so:/system/vendor/lib64/libproxsockadapter.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libpvr.so:/system/vendor/lib64/libpvr.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqc-opt.so:/system/vendor/lib64/libqc-opt.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcci_legacy.so:/system/vendor/lib64/libqcci_legacy.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcmaputils.so:/system/vendor/lib64/libqcmaputils.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcproximity.so:/system/vendor/lib64/libqcproximity.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqdi.so:/system/vendor/lib64/libqdi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqdp.so:/system/vendor/lib64/libqdp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqfp-service.so:/system/vendor/lib64/libqfp-service.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqisl.so:/system/vendor/lib64/libqisl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi.so:/system/vendor/lib64/libqmi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_cci.so:/system/vendor/lib64/libqmi_cci.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_client_qmux.so:/system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_common_so.so:/system/vendor/lib64/libqmi_common_so.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_csi.so:/system/vendor/lib64/libqmi_csi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_encdec.so:/system/vendor/lib64/libqmi_encdec.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmiservices.so:/system/vendor/lib64/libqmiservices.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-at.so:/system/vendor/lib64/libqti-at.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-gt.so:/system/vendor/lib64/libqti-gt.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-iop-client.so:/system/vendor/lib64/libqti-iop-client.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-perfd-client.so:/system/vendor/lib64/libqti-perfd-client.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-wl.so:/system/vendor/lib64/libqti-wl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libquipc_os_api.so:/system/vendor/lib64/libquipc_os_api.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libqvop-service.so:/system/vendor/lib64/libqvop-service.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/librcc.so:/system/vendor/lib64/librcc.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libril-qc-qmi-1.so:/system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libril-qcril-hook-oem.so:/system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/librmp.so:/system/vendor/lib64/librmp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/librpmb.so:/system/vendor/lib64/librpmb.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/librs_adreno.so:/system/vendor/lib64/librs_adreno.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/librs_adreno_sha1.so:/system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libscalar.so:/system/vendor/lib64/libscalar.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsd_sdk_display.so:/system/vendor/lib64/libsd_sdk_display.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdm-color.so:/system/vendor/lib64/libsdm-color.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdm-diag.so:/system/vendor/lib64/libsdm-diag.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdm-disp-apis.so:/system/vendor/lib64/libsdm-disp-apis.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdmextension.so:/system/vendor/lib64/libsdmextension.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui.so:/system/vendor/lib64/libsecureui.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui_svcsock.so:/system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureuisvc_jni.so:/system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libseemp_binder.so:/system/vendor/lib64/libseemp_binder.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libseempnative.so:/system/vendor/lib64/libseempnative.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor1.so:/system/vendor/lib64/libsensor1.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_reg.so:/system/vendor/lib64/libsensor_reg.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_test.so:/system/vendor/lib64/libsensor_test.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_user_cal.so:/system/vendor/lib64/libsensor_user_cal.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsi.so:/system/vendor/lib64/libsi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libslimclient.so:/system/vendor/lib64/libslimclient.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsmemlog.so:/system/vendor/lib64/libsmemlog.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libssd.so:/system/vendor/lib64/libssd.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so:/system/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:/system/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libstaapi.so:/system/vendor/lib64/libstaapi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libstlport_sta.so:/system/vendor/lib64/libstlport_sta.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsystem_health_mon.so:/system/vendor/lib64/libsystem_health_mon.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libthermalclient.so:/system/vendor/lib64/libthermalclient.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libthermalioctl.so:/system/vendor/lib64/libthermalioctl.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libual.so:/system/vendor/lib64/libual.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libualutil.so:/system/vendor/lib64/libualutil.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libulp2.so:/system/vendor/lib64/libulp2.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libusndroute.so:/system/vendor/lib64/libusndroute.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libusutils.so:/system/vendor/lib64/libusutils.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libvpphvx.so:/system/vendor/lib64/libvpphvx.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libwfdmmservice.so:/system/vendor/lib64/libwfdmmservice.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libwms.so:/system/vendor/lib64/libwms.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libxml.so:/system/vendor/lib64/libxml.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libxtadapter.so:/system/vendor/lib64/libxtadapter.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:/system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/sensors.oem.so:/system/vendor/lib64/sensors.oem.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/sensors.ssc.so:/system/vendor/lib64/sensors.ssc.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcbassboost.so:/system/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcreverb.so:/system/vendor/lib64/soundfx/libqcreverb.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcvirt.so:/system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/gemini/proprietary/vendor/qcril.db:/system/vendor/qcril.db \
