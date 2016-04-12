@@ -16,13 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/xiaomi/gemini/proprietary/bin/athdiag:system/bin/athdiag \
     vendor/xiaomi/gemini/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/xiaomi/gemini/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/xiaomi/gemini/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/xiaomi/gemini/proprietary/bin/diag_callback_sample:system/bin/diag_callback_sample \
-    vendor/xiaomi/gemini/proprietary/bin/displayfeature:system/bin/displayfeature \
-    vendor/xiaomi/gemini/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/gemini/proprietary/bin/fdpp:system/bin/fdpp \
     vendor/xiaomi/gemini/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/gemini/proprietary/bin/fmconfig:system/bin/fmconfig \
@@ -31,11 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/xiaomi/gemini/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/gemini/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/xiaomi/gemini/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/gemini/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/gemini/proprietary/bin/irtest:system/bin/irtest \
-    vendor/xiaomi/gemini/proprietary/bin/iw:system/bin/iw \
-    vendor/xiaomi/gemini/proprietary/bin/mct-unit-test-app:system/bin/mct-unit-test-app \
     vendor/xiaomi/gemini/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
     vendor/xiaomi/gemini/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/gemini/proprietary/bin/mm-pp-dpps:system/bin/mm-pp-dpps \
@@ -44,34 +34,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/mmbn-daemon:system/bin/mmbn-daemon \
     vendor/xiaomi/gemini/proprietary/bin/mmi:system/bin/mmi \
     vendor/xiaomi/gemini/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/xiaomi/gemini/proprietary/bin/mtd:system/bin/mtd \
-    vendor/xiaomi/gemini/proprietary/bin/myftm:system/bin/myftm \
     vendor/xiaomi/gemini/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/xiaomi/gemini/proprietary/bin/nv_mac:system/bin/nv_mac \
     vendor/xiaomi/gemini/proprietary/bin/nxp_do_cal.sh:system/bin/nxp_do_cal.sh \
     vendor/xiaomi/gemini/proprietary/bin/nxp_do_f0.sh:system/bin/nxp_do_f0.sh \
-    vendor/xiaomi/gemini/proprietary/bin/pktlogconf:system/bin/pktlogconf \
-    vendor/xiaomi/gemini/proprietary/bin/pnx:system/bin/pnx \
-    vendor/xiaomi/gemini/proprietary/bin/qfp-client:system/bin/qfp-client \
-    vendor/xiaomi/gemini/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/xiaomi/gemini/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/gemini/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/xiaomi/gemini/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
     vendor/xiaomi/gemini/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/gemini/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/xiaomi/gemini/proprietary/bin/secure_camera_sample_client:system/bin/secure_camera_sample_client \
-    vendor/xiaomi/gemini/proprietary/bin/secure_ui_sample_client:system/bin/secure_ui_sample_client \
     vendor/xiaomi/gemini/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/gemini/proprietary/bin/sns_regedit_ssi:system/bin/sns_regedit_ssi \
-    vendor/xiaomi/gemini/proprietary/bin/tbaseLoader:system/bin/tbaseLoader \
-    vendor/xiaomi/gemini/proprietary/bin/tfa_coldboot.sh:system/bin/tfa_coldboot.sh \
     vendor/xiaomi/gemini/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/gemini/proprietary/bin/usf_proximity:system/bin/usf_proximity \
     vendor/xiaomi/gemini/proprietary/bin/usf_tester:system/bin/usf_tester \
     vendor/xiaomi/gemini/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/xiaomi/gemini/proprietary/bin/yuvtool:system/bin/yuvtool \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_General_cal.acdb:system/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/etc/acdbdata/Forte/Forte_Global_cal.acdb \
@@ -106,9 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/gemini/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/xiaomi/gemini/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
-    vendor/xiaomi/gemini/proprietary/etc/face_goodly_208_180:system/etc/face_goodly_208_180 \
-    vendor/xiaomi/gemini/proprietary/etc/face_ravishing_238_224:system/etc/face_ravishing_238_224 \
-    vendor/xiaomi/gemini/proprietary/etc/face_splendid_274_200:system/etc/face_splendid_274_200 \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
@@ -157,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/sensor_diag.cfg:system/etc/sensor_diag.cfg \
     vendor/xiaomi/gemini/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/gemini/proprietary/etc/thermal-engine-8996.conf:system/etc/thermal-engine-8996.conf \
-    vendor/xiaomi/gemini/proprietary/etc/updatecmds/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
     vendor/xiaomi/gemini/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
     vendor/xiaomi/gemini/proprietary/etc/usf/mixer/mixer_paths_mtp.xml:system/etc/usf/mixer/mixer_paths_mtp.xml \
     vendor/xiaomi/gemini/proprietary/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg:system/etc/usf/proximity/cfg_mtp/usf_pocket_apps_mtp.cfg \
@@ -177,36 +149,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libc2dcolorconvert.so:system/lib64/libc2dcolorconvert.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libminui.so:system/lib64/libminui.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-    vendor/xiaomi/gemini/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
-    vendor/xiaomi/gemini/proprietary/lib64/soundfx/libqcomvoiceprocessing.so:system/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
-    vendor/xiaomi/gemini/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
-    vendor/xiaomi/gemini/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/xiaomi/gemini/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/xiaomi/gemini/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/xiaomi/gemini/proprietary/lib/libminui.so:system/lib/libminui.so \
-    vendor/xiaomi/gemini/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/xiaomi/gemini/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/gemini/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/xiaomi/gemini/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/gemini/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
@@ -228,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/bin/qseeproxysampledaemon:system/vendor/bin/qseeproxysampledaemon \
     vendor/xiaomi/gemini/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/gemini/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/xiaomi/gemini/proprietary/vendor/default.prop:system/vendor/default.prop \
     vendor/xiaomi/gemini/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/xiaomi/gemini/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
@@ -269,8 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libavenhancements.so:system/vendor/lib64/libavenhancements.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
@@ -308,13 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmare-1.1.so:system/vendor/lib64/libmare-1.1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmare-cpu-1.1.so:system/vendor/lib64/libmare-cpu-1.1.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
@@ -340,7 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxadapter.so:system/vendor/lib64/libproxadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxsockadapter.so:system/vendor/lib64/libproxsockadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQBLAS-0.13.0.so:system/vendor/lib64/libQBLAS-0.13.0.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
@@ -356,7 +301,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQPayJNI.so:system/vendor/lib64/libQPayJNI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
@@ -413,7 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
@@ -479,8 +422,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -489,7 +430,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_4k_preview_lc898122.so:system/vendor/lib/libchromatix_imx214_4k_preview_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_4k_video_lc898122.so:system/vendor/lib/libchromatix_imx214_4k_video_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
@@ -1034,11 +974,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libmare-1.1.so:system/vendor/lib/libmare-1.1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libmare-cpu-1.1.so:system/vendor/lib/libmare-cpu-1.1.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -1247,7 +1182,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
