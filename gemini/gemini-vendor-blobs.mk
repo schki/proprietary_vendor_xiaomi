@@ -16,16 +16,34 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/xiaomi/gemini/proprietary/bin/audiod:system/bin/audiod \
     vendor/xiaomi/gemini/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/xiaomi/gemini/proprietary/bin/cnd:system/bin/cnd \
+    vendor/xiaomi/gemini/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/xiaomi/gemini/proprietary/bin/cnss_diag:system/bin/cnss_diag \
+    vendor/xiaomi/gemini/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
+    vendor/xiaomi/gemini/proprietary/bin/displayfeature:system/bin/displayfeature \
+    vendor/xiaomi/gemini/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/xiaomi/gemini/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/gemini/proprietary/bin/fdpp:system/bin/fdpp \
+    vendor/xiaomi/gemini/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/xiaomi/gemini/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/gemini/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/gemini/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
     vendor/xiaomi/gemini/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
+    vendor/xiaomi/gemini/proprietary/bin/fstman:system/bin/fstman \
     vendor/xiaomi/gemini/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/xiaomi/gemini/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/gemini/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/xiaomi/gemini/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/xiaomi/gemini/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/xiaomi/gemini/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/xiaomi/gemini/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/xiaomi/gemini/proprietary/bin/iop:system/bin/iop \
+    vendor/xiaomi/gemini/proprietary/bin/ipacm:system/bin/ipacm \
+    vendor/xiaomi/gemini/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/gemini/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/xiaomi/gemini/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/gemini/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
     vendor/xiaomi/gemini/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/xiaomi/gemini/proprietary/bin/mm-pp-dpps:system/bin/mm-pp-dpps \
@@ -34,18 +52,37 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/mmbn-daemon:system/bin/mmbn-daemon \
     vendor/xiaomi/gemini/proprietary/bin/mmi:system/bin/mmi \
     vendor/xiaomi/gemini/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/xiaomi/gemini/proprietary/bin/mtd:system/bin/mtd \
     vendor/xiaomi/gemini/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/gemini/proprietary/bin/nxp_do_cal.sh:system/bin/nxp_do_cal.sh \
     vendor/xiaomi/gemini/proprietary/bin/nxp_do_f0.sh:system/bin/nxp_do_f0.sh \
+    vendor/xiaomi/gemini/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/xiaomi/gemini/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/xiaomi/gemini/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/xiaomi/gemini/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
+    vendor/xiaomi/gemini/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/xiaomi/gemini/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/gemini/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/xiaomi/gemini/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
     vendor/xiaomi/gemini/proprietary/bin/radish:system/bin/radish \
+    vendor/xiaomi/gemini/proprietary/bin/rild:system/bin/rild \
     vendor/xiaomi/gemini/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/gemini/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/xiaomi/gemini/proprietary/bin/servicemanager:system/bin/servicemanager \
+    vendor/xiaomi/gemini/proprietary/bin/smeloop:system/bin/smeloop \
+    vendor/xiaomi/gemini/proprietary/bin/smonsir:system/bin/smonsir \
+    vendor/xiaomi/gemini/proprietary/bin/smprosrv:system/bin/smprosrv \
+    vendor/xiaomi/gemini/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/xiaomi/gemini/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/xiaomi/gemini/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
+    vendor/xiaomi/gemini/proprietary/bin/tfa_coldboot.sh:system/bin/tfa_coldboot.sh \
+    vendor/xiaomi/gemini/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/gemini/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/gemini/proprietary/bin/usf_proximity:system/bin/usf_proximity \
     vendor/xiaomi/gemini/proprietary/bin/usf_tester:system/bin/usf_tester \
     vendor/xiaomi/gemini/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/xiaomi/gemini/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/xiaomi/gemini/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
@@ -81,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/device_features/gemini.xml:system/etc/device_features/gemini.xml \
     vendor/xiaomi/gemini/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/gemini/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/xiaomi/gemini/proprietary/etc/elliptic_sensor.xml:system/etc/elliptic_sensor.xml \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
@@ -167,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/gemini/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/gemini/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
-    vendor/xiaomi/gemini/proprietary/lib/libultrasound.so:system/lib/libultrasound.so \
     vendor/xiaomi/gemini/proprietary/usr/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
     vendor/xiaomi/gemini/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
     vendor/xiaomi/gemini/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
