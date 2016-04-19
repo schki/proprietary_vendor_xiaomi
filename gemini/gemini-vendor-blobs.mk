@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/xiaomi/gemini/proprietary/bin/audiod:system/bin/audiod \
     vendor/xiaomi/gemini/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/gemini/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/gemini/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
@@ -26,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/gemini/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/gemini/proprietary/bin/fdpp:system/bin/fdpp \
-    vendor/xiaomi/gemini/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/xiaomi/gemini/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/gemini/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/xiaomi/gemini/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
@@ -65,10 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/gemini/proprietary/bin/qvop-daemon:system/bin/qvop-daemon \
     vendor/xiaomi/gemini/proprietary/bin/radish:system/bin/radish \
-    vendor/xiaomi/gemini/proprietary/bin/rild:system/bin/rild \
     vendor/xiaomi/gemini/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/gemini/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/xiaomi/gemini/proprietary/bin/servicemanager:system/bin/servicemanager \
     vendor/xiaomi/gemini/proprietary/bin/smeloop:system/bin/smeloop \
     vendor/xiaomi/gemini/proprietary/bin/smonsir:system/bin/smonsir \
     vendor/xiaomi/gemini/proprietary/bin/smprosrv:system/bin/smprosrv \
@@ -82,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/usf_tester:system/bin/usf_tester \
     vendor/xiaomi/gemini/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/gemini/proprietary/bin/wfdservice:system/bin/wfdservice \
-    vendor/xiaomi/gemini/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/gemini/proprietary/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
