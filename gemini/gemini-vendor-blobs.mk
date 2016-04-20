@@ -197,12 +197,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/nfc_nci.pn54x.default.so:system/lib64/hw/nfc_nci.pn54x.default.so \
     vendor/xiaomi/gemini/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
-    vendor/xiaomi/gemini/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
     vendor/xiaomi/gemini/proprietary/lib64/libstlport.so:system/lib64/libstlport.so \
@@ -211,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib/hw/consumerir.msm8996.so:system/lib/hw/consumerir.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/xiaomi/gemini/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/gemini/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -219,8 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/gemini/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
-    vendor/xiaomi/gemini/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
-    vendor/xiaomi/gemini/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/xiaomi/gemini/proprietary/lib/modules/qca_cld/qca_cld_wlan.ko:system/lib/modules/qca_cld/qca_cld_wlan.ko \
     vendor/xiaomi/gemini/proprietary/usr/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
     vendor/xiaomi/gemini/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
