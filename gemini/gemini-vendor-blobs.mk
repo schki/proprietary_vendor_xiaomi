@@ -1102,7 +1102,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/crown_156_128.bin:system/etc/crown_156_128.bin \
     vendor/xiaomi/gemini/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/xiaomi/gemini/proprietary/etc/sdm_ys_32p_120_21_5_perturb50.bin:system/etc/sdm_ys_32p_120_21_5_perturb50.bin \
+    vendor/xiaomi/gemini/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/xiaomi/gemini/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
     vendor/xiaomi/gemini/proprietary/vendor/bin/hdcp1prov:system/vendor/bin/hdcp1prov \
@@ -1111,9 +1113,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxadapter.so:system/vendor/lib64/libproxadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libproxsockadapter.so:system/vendor/lib64/libproxsockadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
@@ -1133,6 +1138,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libseemp_binder.so:system/vendor/lib64/libseemp_binder.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libseempnative.so:system/vendor/lib64/libseempnative.so \
@@ -1140,7 +1146,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so:system/vendor/lib64/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:system/vendor/lib64/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libstaapi.so:system/vendor/lib64/libstaapi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libstlport_sta.so:system/vendor/lib64/libstlport_sta.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libual.so:system/vendor/lib64/libual.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
@@ -1155,11 +1163,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libhdcp1prov.so:system/vendor/lib/libhdcp1prov.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libproxadapter.so:system/vendor/lib/libproxadapter.so \
@@ -1179,6 +1186,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libseemp_binder.so:system/vendor/lib/libseemp_binder.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libseempnative.so:system/vendor/lib/libseempnative.so \
@@ -1187,7 +1195,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsta_lib_third_party_libsta_lib_libsta_gyp.so:system/vendor/lib/libsta_lib_third_party_libsta_lib_libsta_gyp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so:system/vendor/lib/libsta_lib_third_party_staproxy_sta_proxy_loader_gyp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libstaapi.so:system/vendor/lib/libstaapi.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libstlport_sta.so:system/vendor/lib/libstlport_sta.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libual.so:system/vendor/lib/libual.so \
