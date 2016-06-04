@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/tfa_coldboot.sh:system/bin/tfa_coldboot.sh \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
     vendor/xiaomi/gemini/proprietary/etc/firmware/tfa9891.cnt:system/etc/firmware/tfa9891.cnt \
+    vendor/xiaomi/gemini/proprietary/lib64/hw/audio.primary.msm8996.so:system/lib64/hw/audio.primary.msm8996.so \
+    vendor/xiaomi/gemini/proprietary/lib/hw/audio.primary.msm8996.so:system/lib/hw/audio.primary.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/gemini/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/soundfx/libqcbassboost.so:system/vendor/lib64/soundfx/libqcbassboost.so \
