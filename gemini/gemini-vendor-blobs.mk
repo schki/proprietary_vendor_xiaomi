@@ -1137,8 +1137,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
-    vendor/xiaomi/gemini/proprietary/lib64/hw/lights.msm8996.so:system/lib64/hw/lights.msm8996.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/lights.msm8996.so:system/lib/hw/lights.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVenc.so:system/lib64/libOmxVenc.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/gemini/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
