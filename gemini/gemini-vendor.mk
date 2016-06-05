@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api
+
+PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff
 

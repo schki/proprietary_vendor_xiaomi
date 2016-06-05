@@ -942,18 +942,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/gemini/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/xiaomi/gemini/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/xiaomi/gemini/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/xiaomi/gemini/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/xiaomi/gemini/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/xiaomi/gemini/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/xiaomi/gemini/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
