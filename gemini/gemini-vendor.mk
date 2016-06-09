@@ -30,6 +30,15 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
+    CNEService \
+    dpmserviceapp \
+    QtiTetherService
+
+PRODUCT_PACKAGES += \
+    ims \
+    imssettings
+
+PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff
 
