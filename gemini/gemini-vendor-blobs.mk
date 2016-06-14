@@ -100,8 +100,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/gemini/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/xiaomi/gemini/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/gemini/proprietary/etc/age_gender_bg:system/etc/age_gender_bg \
     vendor/xiaomi/gemini/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/gemini/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
+    vendor/xiaomi/gemini/proprietary/etc/crown_156_128.bin:system/etc/crown_156_128.bin \
+    vendor/xiaomi/gemini/proprietary/etc/face_goodly_208_180:system/etc/face_goodly_208_180 \
+    vendor/xiaomi/gemini/proprietary/etc/face_ravishing_238_224:system/etc/face_ravishing_238_224 \
+    vendor/xiaomi/gemini/proprietary/etc/face_splendid_274_200:system/etc/face_splendid_274_200 \
+    vendor/xiaomi/gemini/proprietary/etc/lf_facerank_model.bin:system/etc/lf_facerank_model.bin \
+    vendor/xiaomi/gemini/proprietary/etc/people_gender.dat:system/etc/people_gender.dat \
+    vendor/xiaomi/gemini/proprietary/etc/sdm_ys_32p_120_21_5_perturb50.bin:system/etc/sdm_ys_32p_120_21_5_perturb50.bin \
+    vendor/xiaomi/gemini/proprietary/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
     vendor/xiaomi/gemini/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/gemini/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
@@ -803,8 +812,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/gemini/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/xiaomi/gemini/proprietary/etc/crown_156_128.bin:system/etc/crown_156_128.bin \
-    vendor/xiaomi/gemini/proprietary/etc/sdm_ys_32p_120_21_5_perturb50.bin:system/etc/sdm_ys_32p_120_21_5_perturb50.bin \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libSonyIMX298PdafLibrary.so:system/vendor/lib64/libSonyIMX298PdafLibrary.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libSonyIMX298PdafLibrary.so:system/vendor/lib/libSonyIMX298PdafLibrary.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
