@@ -1364,10 +1364,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/xiaomi/gemini/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/gemini/proprietary/etc/sensor_diag.cfg:system/etc/sensor_diag.cfg \
-    vendor/xiaomi/gemini/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_cal.so:system/lib64/libsensor_cal.so \
     vendor/xiaomi/gemini/proprietary/lib64/libsensor_calJNI.so:system/lib64/libsensor_calJNI.so \
-    vendor/xiaomi/gemini/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libsensor_test.so:system/vendor/lib64/libsensor_test.so \
