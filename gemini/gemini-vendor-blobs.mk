@@ -772,10 +772,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/displayfeature:system/bin/displayfeature \
     vendor/xiaomi/gemini/proprietary/bin/fdpp:system/bin/fdpp \
     vendor/xiaomi/gemini/proprietary/bin/gptest:system/bin/gptest \
-    vendor/xiaomi/gemini/proprietary/bin/mtd:system/bin/mtd \
-    vendor/xiaomi/gemini/proprietary/bin/smeloop:system/bin/smeloop \
-    vendor/xiaomi/gemini/proprietary/bin/smonsir:system/bin/smonsir \
-    vendor/xiaomi/gemini/proprietary/bin/smprosrv:system/bin/smprosrv \
     vendor/xiaomi/gemini/proprietary/vendor/bin/hdcp1prov:system/vendor/bin/hdcp1prov \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libhdcp1prov.so:system/vendor/lib64/libhdcp1prov.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
