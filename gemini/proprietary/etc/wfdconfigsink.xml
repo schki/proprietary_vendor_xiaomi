@@ -88,7 +88,7 @@
         <VideoFormatsExtension>
 
             <VideoCodecHeader>
-                <TotalProfiles>6</TotalProfiles>
+                <TotalProfiles>5</TotalProfiles>
                 <PreferredDisplaySupport>0</PreferredDisplaySupport>
             </VideoCodecHeader>
 
@@ -121,7 +121,7 @@
             <VideoCodec3>
                 <CodecName>H.264</CodecName>
                 <Profile>2</Profile>
-                <Level>4.2</Level>
+                <Level>5.2</Level>
                 <HorizontalResolution>4096</HorizontalResolution>
                 <VerticalResolution>2160</VerticalResolution>
                 <Latency>0</Latency>
@@ -134,7 +134,7 @@
             <VideoCodec4>
                 <CodecName>H.264</CodecName>
                 <Profile>3</Profile>
-                <Level>4.2</Level>
+                <Level>5.2</Level>
                 <HorizontalResolution>4096</HorizontalResolution>
                 <VerticalResolution>2160</VerticalResolution>
                 <Latency>0</Latency>
@@ -147,7 +147,7 @@
             <VideoCodec5>
                 <CodecName>H.264</CodecName>
                 <Profile>4</Profile>
-                <Level>4.2</Level>
+                <Level>5.2</Level>
                 <HorizontalResolution>4096</HorizontalResolution>
                 <VerticalResolution>2160</VerticalResolution>
                 <Latency>0</Latency>
@@ -156,19 +156,6 @@
                 <FrameRateControlSupp>1</FrameRateControlSupp>
                 <VideoFps>30</VideoFps>
             </VideoCodec5>
-
-            <VideoCodec6>
-                <CodecName>H.264</CodecName>
-                <Profile>2</Profile>
-                <Level>4.2</Level>
-                <HorizontalResolution>4096</HorizontalResolution>
-                <VerticalResolution>2160</VerticalResolution>
-                <Latency>0</Latency>
-                <MinimumSliceSize>0</MinimumSliceSize>
-                <SliceEncodingParams>0</SliceEncodingParams>
-                <FrameRateControlSupp>1</FrameRateControlSupp>
-                <VideoFps>30</VideoFps>
-            </VideoCodec6>
         </VideoFormatsExtension>
 
         <!--

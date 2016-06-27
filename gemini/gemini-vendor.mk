@@ -17,9 +17,9 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
-    TimeService \
-    qcrilmsgtunnel \
-    shutdownlistener
+    fastdormancy \
+    shutdownlistener \
+    TimeService
 
 PRODUCT_PACKAGES += \
     qcnvitems \
@@ -31,7 +31,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     CNEService \
+    com.qualcomm.location \
     dpmserviceapp \
+    qcrilmsgtunnel \
     QtiTetherService
 
 PRODUCT_PACKAGES += \

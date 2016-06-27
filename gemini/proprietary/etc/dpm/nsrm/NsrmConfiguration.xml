@@ -71,6 +71,9 @@
     <!-- Decision made time threshold. Default 5 days (432000s). Range: [1 - 31,536,000] -->
     <TDmThreshold>432000</TDmThreshold>
 
+    <!-- Recheck threshold. Default 1.1 Range: [1.0 - 10.0] -->
+    <RecheckThr>1.1</RecheckThr>
+
     <!-- Decision made. 0 false, 1 true -->
     <DNsrmEnable>0</DNsrmEnable>
   </Nsrm>

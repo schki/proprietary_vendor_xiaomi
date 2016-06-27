@@ -187,7 +187,7 @@
             <M14Support>0</M14Support>              <!-- 0/1 M14 supported or not -->
             <InputCategory>
                 <Generic>1</Generic>                <!-- 0/1 - support generic or not -->
-                <HID>1</HID>                        <!-- 0/1 - support HID or not -->
+                <HID>0</HID>                        <!-- 0/1 - support HID or not -->
             </InputCategory>
 
             <!--  Supported input events  -->
@@ -324,7 +324,7 @@
           <!-- 1280x720p60  -->
             <BIT6>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT6>
           <!-- 1920x1080p30  -->
             <BIT7>
@@ -339,7 +339,7 @@
           <!-- 1920x1080i60  -->
             <BIT9>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT9>
           <!-- 1280x720p25  -->
             <BIT10>
@@ -359,12 +359,12 @@
           <!-- 1920x1080p50  -->
             <BIT13>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT13>
           <!-- 1920x1080i50  -->
             <BIT14>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT14>
           <!-- 1280x720p24  -->
             <BIT15>
@@ -374,22 +374,22 @@
           <!-- 1920x1080p24  -->
             <BIT16>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT16>
           <!--  3840x2160p24  -->
             <BIT17>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT17>
           <!--  3840x2160 p25  -->
             <BIT18>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT18>
           <!--  3840x2160p30 -->
             <BIT19>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT19>
           <!--  3840x2160p50  -->
             <BIT20>
@@ -404,17 +404,17 @@
           <!--  4096x2160p24  -->
             <BIT22>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT22>
           <!--  4096x2160p25  -->
             <BIT23>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT23>
           <!--  4096x2160p30  -->
             <BIT24>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT24>
           <!--  4096x2160p50  -->
             <BIT25>
@@ -443,7 +443,7 @@
           <!--  800x600p60 -->
             <BIT1>
                 <MinBitrate>1000000</MinBitrate>
-                <MaxBitrate>4000000</MaxBitrate>
+                <MaxBitrate>5000000</MaxBitrate>
             </BIT1>
           <!--  1024x768p30 -->
             <BIT2>
@@ -463,7 +463,7 @@
           <!--  1152x864p60 -->
             <BIT5>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT5>
           <!--  1280x768p30 -->
             <BIT6>
@@ -478,22 +478,22 @@
           <!--  1280x800p30 -->
             <BIT8>
                 <MinBitrate>3500000</MinBitrate>
-                <MaxBitrate>14000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT8>
           <!--  1280x800p60 -->
             <BIT9>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT9>
           <!--  1360x768p30 -->
             <BIT10>
                 <MinBitrate>3500000</MinBitrate>
-                <MaxBitrate>14000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT10>
           <!--  1360x768p60 -->
             <BIT11>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT11>
           <!--  1366x768p30 -->
             <BIT12>
@@ -503,22 +503,22 @@
           <!--  1366x768p60 -->
             <BIT13>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT13>
           <!--  1280x1024p30 -->
             <BIT14>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT14>
           <!--  1280x1024p60 -->
             <BIT15>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT15>
           <!--  1400x1050p30 -->
             <BIT16>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT16>
           <!--  1400x1050p60 -->
             <BIT17>
@@ -528,77 +528,77 @@
           <!--  1440x900p30 -->
             <BIT18>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT18>
           <!--  1440x900p60 -->
             <BIT19>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT19>
           <!--  1600x900p30 -->
             <BIT20>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT20>
           <!--  1600x900p60 -->
             <BIT21>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT21>
           <!--  1600x1200p30 -->
             <BIT22>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT22>
           <!--  1600x1200p60 -->
             <BIT23>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT23>
           <!--  1680x1024p30 -->
             <BIT24>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT24>
           <!--  1680x1024p60 -->
             <BIT25>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT25>
           <!--  1680x1050p30 -->
             <BIT26>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT26>
           <!--  1680x1050p60 -->
             <BIT27>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT27>
           <!--  1920x1200p30 -->
             <BIT28>
                 <MinBitrate>5000000</MinBitrate>
-                <MaxBitrate>20000000</MaxBitrate>
+                <MaxBitrate>10000000</MaxBitrate>
             </BIT28>
           <!--  1920x1200p60 -->
             <BIT29>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>40000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT29>
           <!--  2560x1440p30  -->
             <BIT30>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT30>
           <!--  2560x1440p60  -->
             <BIT31>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>20000000</MaxBitrate>
             </BIT31>
           <!--  2560x1600p30  -->
             <BIT32>
                 <MinBitrate>10000000</MinBitrate>
-                <MaxBitrate>30000000</MaxBitrate>
+                <MaxBitrate>15000000</MaxBitrate>
             </BIT32>
           <!--  2560x1600p60  -->
             <BIT33>
@@ -722,10 +722,6 @@
         <PeriodicIDRInterval>5</PeriodicIDRInterval>
     </PeriodicIDRSettings>
 
-    <!-- To change encoder configurations  -->
-    <DynamicEncoderConfig>
-        <NarrowSearchRange>0</NarrowSearchRange>
-    </DynamicEncoderConfig>
 
     <!-- Direct Streaming Feature support -->
     <StreamingSupport>1</StreamingSupport>
