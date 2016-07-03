@@ -79,6 +79,34 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE       := qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS  := optional
+LOCAL_SRC_FILES    := proprietary/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS  := optional
+LOCAL_SRC_FILES    := proprietary/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS  := optional
+LOCAL_SRC_FILES    := proprietary/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS  := optional
+LOCAL_SRC_FILES    := proprietary/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_OWNER := xiaomi
@@ -176,6 +204,17 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_SRC_FILES := proprietary/priv-app/QtiTetherService/QtiTetherService.apk
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := colorservice
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 

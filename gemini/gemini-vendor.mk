@@ -25,6 +25,12 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
+    qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
+    qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
+
+PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
@@ -40,6 +46,7 @@ PRODUCT_PACKAGES += \
     QtiTetherService
 
 PRODUCT_PACKAGES += \
+    colorservice \
     ims \
     imssettings
 
