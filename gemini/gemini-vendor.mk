@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
     imssettings
 
 PRODUCT_PACKAGES += \
+    libsdm-disp-apis \
     libTimeService \
     libtime_genoff
 
