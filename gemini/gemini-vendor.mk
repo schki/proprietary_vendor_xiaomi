@@ -136,6 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/gemini/proprietary/etc/sdm_ys_32p_120_21_5_perturb50.bin:system/etc/sdm_ys_32p_120_21_5_perturb50.bin \
+    vendor/xiaomi/gemini/proprietary/etc/stargate/qfp_config.txt:system/etc/stargate/qfp_config.txt \
     vendor/xiaomi/gemini/proprietary/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
     vendor/xiaomi/gemini/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -394,6 +395,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libactuator_lc898214xc.so:system/vendor/lib/libactuator_lc898214xc.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libactuator_lc898217xc_a4_semco.so:system/vendor/lib/libactuator_lc898217xc_a4_semco.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -401,6 +403,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
