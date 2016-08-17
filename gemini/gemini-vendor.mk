@@ -40,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/gemini/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/gemini/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/xiaomi/gemini/proprietary/bin/nv_fem:system/bin/nv_fem \
-    vendor/xiaomi/gemini/proprietary/bin/nv_mac:system/bin/nv_mac \
     vendor/xiaomi/gemini/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/gemini/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/xiaomi/gemini/proprietary/bin/pnx:system/bin/pnx \
@@ -139,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/gemini/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/gemini/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/xiaomi/gemini/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/xiaomi/gemini/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/gemini/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
@@ -152,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/gemini/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/gemini/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/xiaomi/gemini/proprietary/lib/libqminvapi.so:system/lib/libqminvapi.so \
     vendor/xiaomi/gemini/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/gemini/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/gemini/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -693,6 +689,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    libqminvapi \
     libsdm-disp-apis \
     libthermalclient \
     libtime_genoff \
