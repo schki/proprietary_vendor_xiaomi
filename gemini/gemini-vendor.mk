@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/gemini/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/gemini/proprietary/bin/energy-awareness:system/bin/energy-awareness \
-    vendor/xiaomi/gemini/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/xiaomi/gemini/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/xiaomi/gemini/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/gemini/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
@@ -42,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/gemini/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/gemini/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/xiaomi/gemini/proprietary/bin/pnx:system/bin/pnx \
     vendor/xiaomi/gemini/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/xiaomi/gemini/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/gemini/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -121,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/gemini/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/xiaomi/gemini/proprietary/etc/stargate/qfp_config.txt:system/etc/stargate/qfp_config.txt \
     vendor/xiaomi/gemini/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/gemini/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -158,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/gemini/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/xiaomi/gemini/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/xiaomi/gemini/proprietary/vendor/bin/qpaydaemon:system/vendor/bin/qpaydaemon \
     vendor/xiaomi/gemini/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/xiaomi/gemini/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/gemini/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
@@ -216,10 +212,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libFidoCryptoJNI.so:system/vendor/lib64/libFidoCryptoJNI.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libFIDOKeyProvisioning.so:system/vendor/lib64/libFIDOKeyProvisioning.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libFidoSuiJNI.so:system/vendor/lib64/libFidoSuiJNI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
@@ -279,7 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib64/libQPayJNI.so:system/vendor/lib64/libQPayJNI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
@@ -494,10 +485,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libFidoCryptoJNI.so:system/vendor/lib/libFidoCryptoJNI.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
-    vendor/xiaomi/gemini/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
