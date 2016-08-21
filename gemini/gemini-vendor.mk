@@ -649,10 +649,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/gemini/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_skel.so \
     vendor/xiaomi/gemini/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_stats.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_stats.so \
